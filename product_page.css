@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(184, 241, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+  width: 100%;
+        position: fixed;        
+        background: #893;
+        padding: 10px 0;
+        background-color: skyblue;
+        top: 0;
+        display: flex;
+        justify-content: space-around;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+#header-img{
+  height:35px;
+  width:35px;
+  background-color:#4568;
+}
+#titl{
+  color:rgb(255, 0, 0);
+  margin:auto;
+  text-align:center;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+#video{
+  width:80%;
+  margin: auto;
+  display: table;
+}
+
+
+#Products {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 33.33%;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  width: 100%;
+  padding 15px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+/*For form    add full-width input fields*/
+h2{margin: auto;
+    display: table;
+}
+  form{width:50%;
+    margin: auto;
+    display: table;
+    border-radius:5px;}
+    input[type=email],
+    textarea[type=text]{
+        width: 100%;
+        padding: 6px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius:5px;
+        box-sizing: border-box;
+    }
+    /* set a style for all buttons*/
+     
+    #submit{
+        background-color: Green;
+        color: white;
+        padding: 10px 15px;
+        margin: 8px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+    /*float signup buttons and add an equal width*/
+     
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+    /*add padding to container elements*/
+     
+    .container {
+        padding: 16px;
+    }
+    /*clear floats*/
+     
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    /*styles for cancel button and signup button 
+      on extra small screens*/
+     
+    @media screen and (max-width: 300px) {
+        .signupbtn {
+            width: 100%;
+        }
+    }
+
+#contact{
+  margin: 30px;
+}
+
+#Team{
+  margin: auto;
+  display: table;
+  border-image: 10px;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 10px;
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+ul > a{
+  margin-left: 10px;
+}
+
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}

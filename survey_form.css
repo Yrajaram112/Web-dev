@@ -1,0 +1,132 @@
+html{
+    background-color: honeydew;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://images.vexels.com/media/users/3/148259/isolated/preview/2215d0f2abb8701eaed352fb688c2787-red-flower-vines-background-by-vexels.png");
+image-resolution: 100%;
+}
+
+    :root{
+    --color-darkblue-alpha:rgb(8, 190, 245);
+}
+#title{
+    border-block-color: green;
+    flood-color: chartreuse;
+    color: rgb(240, 14, 101);
+
+}
+body{
+    text-align: center;
+    
+}
+#description{align-self: center;
+    color: rgb(200, 14, 101);
+
+}
+form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+    inline-size: 400px;
+    text-align: left;
+   
+  margin: auto;
+  }
+
+#name-label{
+    
+    display:block ;
+
+}
+#email-label{
+    display: block;
+    margin-top: 15px;
+
+}
+#number-label{
+    display: block;
+    margin-top: 15px;
+}
+#name{align-self: left;
+    font:inherit;
+    width: 60%;
+    align-self: left;
+    border:darkkhaki;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    text-align: center;
+
+    
+}
+#email{align-self: center;
+    font:inherit;
+    width: 60%;
+    align-self: left;
+    border:darkkhaki;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    text-align: center;
+
+    
+
+}
+#number{align-self: center;
+    font:inherit;
+    width: 60%;
+    align-self: left;
+    border:darkkhaki;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    text-align: center;
+
+
+}
+#dropdown{align-self: center;
+    font:inherit;
+    width: 60%;
+    align-self: left;
+    border:darkkhaki;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    text-align: center;
+
+
+}
+#submit{display: block;
+    width: 50%;
+    padding: 0.75rem;
+    background: lightgreen;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    text-align: center;
+  }
+}
+
+.content{
+    font:inherit;
+    width: 60%;
+    align-self: left;
+    border:darkkhaki;
+    border-radius: 5px;
+    padding:5px;
+    margin:5px;
+    text-align: center;
+
+}
+.imp{
+    color:red;
+}
+.inline{
+    display:block;
+}
+.input-checkbox{
+    display: inline-block;
+}
+.textbox{
+    min-width:90%;
+    min-height: 15mm;
+}

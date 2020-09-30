@@ -1,0 +1,10 @@
+<link rel = "stylesheet" type = "text/css" href = "product_page.css" />
+.container p{
+        line-height: 200px;    /* Create scrollbar to test positioning */
+    }
+
+position:fixed;   /*for fixed header or footer*/
+
+Important**      To keep form or field or thing in center
+margin: auto;
+    display: table;

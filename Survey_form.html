@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="survey_form.css" media="screen"/>
+        <meta charset="UTF-8">
+        <meta name="description">
+       
+    </head>
+    <body>
+        <div>
+        <header class="header">
+        <h1 id="title">SIGMA XI: EVENT REGISTRATION</h1>
+        </header></div>
+        <main>
+            <div> <p id="description">Please fill out the form below to participate.</p></div>
+                
+                <form id="survey-form">
+                   <div>
+                    <label id="name-label" for="name">Full Name <span class="imp">*</span></label>
+                    <input type="text" class="content" id="name" placeholder="Baidhya Jansu" required>
+                </div><div>
+                    <label id="email-label">Email Id <span class="imp">*</span></label>
+                    <input type="email" class="content"  id="email" placeholder="hansa@gmail.com" required>
+                </div><div>
+                    <label id="number-label">Mobile No. <span class="imp">*</span></label>
+                    <input type="number" class="content"  id="number" min="9800000000" max="98700000000" placeholder="eg. 9815709575" required>
+                </div><div>
+                    <p>Which stage Programmer are you?</p>
+                    <select  id="dropdown" class="content"  name="role" required>
+                       
+                        <option disabled selected value>Select current level</option>
+                        <option value="student">Beginner</option>
+                        <option value="student">Intermediate</option>
+                        <option value="student">Expert</option>
+                        
+                    </select></div>
+
+                <div><p>Which Domain are you interested in:</p><label></label>
+               <input type="radio" name="Raja" value="Dance">Technical<br>
+                <input type="radio" name="Raja" value="Dance">Management<br>
+                    <input type="radio" name="Raja" value="Dance">Editorial
+                </div>
+                <div class="inline">
+                    <p>What are your skills?</p>
+                 <label>
+                    <input
+                      name="prefer"
+                      value="Python"
+                      type="checkbox"
+                      class="input-checkbox"
+                    />Python</label
+                  >
+                  </div>
+                    <label><div>
+                        <input
+                          name="prefer"
+                          value="JQuery/React/NodeJS"
+                          type="checkbox"
+                          class="input-checkbox"
+                        />JQuery/React/NodeJS</label
+                      ></div>
+                      <label>
+                        <label><div>
+                            <input
+                              name="prefer"
+                              value="HTML/CSS"
+                              type="checkbox"
+                              class="input-checkbox"
+                            />HTML/CSS</label
+                          ></div>
+                          <label><div>
+                            <input
+                              name="prefer"
+                              value="Javascript"
+                              type="checkbox"
+                              class="input-checkbox"
+                            />Java-Script</label
+                          ></div><label><div>
+                            <input
+                              name="prefer"
+                              value="C/C++"
+                              type="checkbox"
+                              class="input-checkbox"
+                            />C/C++ Programming</label
+                          ></div>
+                          
+
+                
+    <div><p>Any suggestions or queries..</p>
+        <textarea class="textbox">Enter your comments</textarea></div>
+                 <div>
+                        <button id="submit" name="Submit">
+                           Submit </button></div></div>
+                        </form>
+            </section>
+        </main>
+    </body>
+</html>
